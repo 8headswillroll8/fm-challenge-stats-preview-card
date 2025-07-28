@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 :root {
   /* Primary Colors */
@@ -79,7 +79,7 @@ p {
   display: flex;
   max-width: 1200px;
   height: 400px;
-  margin: 0 auto;
+  margin: 0 50px;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -90,8 +90,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
-  padding: 5rem 10rem 5rem 4rem;
 }
 
 .card__image {
@@ -99,6 +97,13 @@ p {
   background-size: cover;
   flex: 1;
   position: relative;
+}
+
+.card__text-group {
+  padding: 1rem 7rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .card__image::before {
@@ -115,10 +120,11 @@ p {
   display: flex;
   padding-top: 2rem;
   justify-content: space-between;
+  gap: 3rem;
 }
 
 .stat p {
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   letter-spacing: 0.1em;
 }
 
