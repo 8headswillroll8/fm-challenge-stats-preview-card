@@ -55,7 +55,6 @@ h2 {
 }
 
 h1 {
-  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 2rem;
   line-height: normal;
@@ -72,6 +71,7 @@ p {
 }
 
 .stat-headings {
+  font-family: var(--font-secondary);
   color: var(--color-text-subtle);
   text-transform: uppercase;
 }
