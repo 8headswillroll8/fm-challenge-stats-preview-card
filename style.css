@@ -139,3 +139,38 @@ p {
 .attribution a {
   color: var(--color-accent);
 }
+
+/* media queries */
+
+@media (max-width: 1024px) {
+  .card__text-group {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .card__image {
+    height: 300px;
+    flex: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .stat {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+  }
+
+  .card__content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
